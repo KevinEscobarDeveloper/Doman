@@ -1409,13 +1409,13 @@ Free Quote
   position: relative;
   z-index: 2;
   margin-top: 130px;
+  align-items: center;
 
 }
 .free-quote .container .row{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
 }
 
 .free-quote .section-heading {
@@ -1598,7 +1598,7 @@ Blog
 
 .show-up {
   position: relative;
-  z-index: 200;
+  z-index: 1;
 }
 
 .blog-post {
@@ -1973,6 +1973,7 @@ responsive
 }
 
 @media (max-width: 767px) {
+
   .header-area .main-nav .logo h4 {
     font-size: 30px;
   }
@@ -2070,6 +2071,16 @@ responsive
   .valores{
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 992px) {
+  .offset-lg-2 {
+    margin-left: 0;
+  }
+
+  .offset-lg-5 {
+    margin-left: 0;
   }
 }
 

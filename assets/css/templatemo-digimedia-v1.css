@@ -742,7 +742,7 @@ header
     padding: 0px;
   }
   .header-area .logo {
-    margin-left: 30px;
+    margin-left: 0px;
   }
   .header-area .menu-trigger {
     display: block !important;
@@ -1283,9 +1283,19 @@ Services Style
   min-width: 60px;
 }
 
+
+
 .services .naccs .menu {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
   margin-bottom: 30px;
+}
+
+.menu .thumb img {
+  height: 4rem;
+  width: 3rem;
 }
 
 .services .naccs .menu div {
@@ -1974,10 +1984,15 @@ responsive
 
 @media (max-width: 767px) {
 
-  .header-area .main-nav .logo h4 {
+  .logo img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .header-area .main-nav h4 {
     font-size: 30px;
   }
-  .header-area .main-nav .logo h4 img {
+  .header-area .main-nav h4 {
     max-width: 30px;
     margin-left: 5px;
   }
